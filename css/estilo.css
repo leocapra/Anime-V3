@@ -7,7 +7,10 @@
     color: white;
     font-size: 100%;
 }
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 header {
     background-color: rgb(20, 20, 20);
     font-family: system-ui, system-ui, -apple-system, Arial, Helvetica, sans-serif;
