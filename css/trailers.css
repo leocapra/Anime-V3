@@ -24,8 +24,8 @@ div.container-trailers div.lista-trailers {
 }
 
 div.trailers {
-    width: 100%;
-    max-width: 1600px;
+    width: 70%;
+    max-width: 1200px;
     margin: auto;
     padding: 20px 20px;
 }
@@ -36,16 +36,17 @@ div.container-trailers .image-trailers {
     cursor: pointer;
 }
 
-div.container-trailers .image-trailers {
-
+div.container-trailers .image-trailers img {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+    border-radius: 10px;
 }
 
-div.sinopse {
-    margin-top:5%;
-    width: 70%;
-    display: inline-block;
-    vertical-align: top;
+div.container-trailers .image-trailers:hover img {
+    transform: scale(1.1);
 }
+
 section#trailers {
     text-align: center;
 
@@ -66,13 +67,6 @@ article {
     position: absolute;
     top:0;
     left: 0;
-    width: 60%;
-    height: 60%;
-}
-
-.banner {
-    position: relative;
-    width: 22.40%;
-    margin-left: 75%;
-    border-radius: 20px;
+    width: 100%;
+    height: 100%;
 }

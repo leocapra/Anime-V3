@@ -41,8 +41,8 @@ body {
 }
 
 main {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
     font-size: 100%;
     justify-content: center;
 }
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
     color: rgb(204, 204, 204);
-    text-align: justify;
+    text-align: center;
     padding: 10px;
     text-indent: 2%;
     font-size: 110%;
@@ -106,11 +106,36 @@ a {
 a:hover {
     opacity: 0.7;
 }
-@media screen and (max-width: 762px) {
+@media screen and (max-width: 1200px) {
     section, aside {
         width: 100%;
     }
+
+    div.container-trailers .image-trailers {
+        flex: 33.33%;
+    }
 }
+
+@media screen and (max-width: 480px) {
+    section, aside {
+        width: 100%;
+    }
+
+    div.container-trailers .image-trailers {
+        flex: 33.33%;
+    }
+}
+
+@media screen and (max-width:768) {
+    div.container-trailers .image-trailers {
+        flex: 50%
+    }
+
+    div.container-trailers h1 {
+        font-size: 22px;
+    }
+}
+
 @media (max-width: 999px) {
     body {
         overflow-x: hidden;
