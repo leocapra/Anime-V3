@@ -8,6 +8,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/iframe.css">
+    <link rel="stylesheet" href="css/trailers.css">
 </head>
 
 <body>
@@ -27,7 +29,35 @@
             </ul>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <section class="Trailers">
+            <h1>Trailers</h1>
+            <p>Você pode ver trailers de alguns animes aqui!</p>
+            <iframe scrolling="no" src="trailers.html" name="janela" id="frame-spec"></iframe>
+
+            <article class="trailers">
+                <div class="container-trailers">
+                    <div class="trailers">
+                        <h3>Clique no trailer desejado.</h3>
+                        <div class="lista-trailers">
+                            <a href="trailers.html#mushoku" class="image-trailers" target="janela"><img
+                                    src="imagens/mushoku.jpeg"></a>
+                            <a href="trailers.html#slime" class="image-trailers" target="janela"><img
+                                    src="imagens/slime.jpeg"></a>
+                            <a href="trailers.html#sao" class="image-trailers" target="janela"><img
+                                    src="imagens/sao.jpeg"></a>
+                            <a href="trailers.html#overlord" class="image-trailers" target="janela"><img
+                                    src="imagens/overlord.jpg"></a>
+                            <a href="trailers.html#taizai" class="image-trailers" target="janela"><img
+                                    src="imagens/taizai.jpeg"></a>
+                            <a href="trailers.html#yuusha" class="image-trailers" target="janela"><img
+                                    src="imagens/yuusha.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
     <script src="js/mobile-navbar.js"></script>
 </body>
 
