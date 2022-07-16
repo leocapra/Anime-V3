@@ -41,6 +41,7 @@ nav {
 
 body {
     background-color:rgb(23, 23, 23);
+    overflow-x: hidden;
 }
 
 main {
