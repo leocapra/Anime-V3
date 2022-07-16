@@ -9,7 +9,7 @@
 }
 html, body {
     max-width: 100%;
-    overflow-x: hidden !important;
+    overflow-x: hidden;
 }
 header {
     background-color: rgb(20, 20, 20);
@@ -41,7 +41,6 @@ nav {
 
 body {
     background-color:rgb(23, 23, 23);
-    overflow-x: hidden;
 }
 
 main {
