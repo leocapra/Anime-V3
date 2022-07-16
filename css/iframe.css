@@ -9,7 +9,14 @@ iframe#frame-spec {
 
 @media screen and (max-width: 1200px) {
     iframe#frame-spec {
-        height: 70vmax;
+        height: 45vmax;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    iframe#frame-spec {
+        height: 25vmax;
 
     }
 }
