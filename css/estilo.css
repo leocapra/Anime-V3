@@ -9,7 +9,7 @@
 }
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 header {
     background-color: rgb(20, 20, 20);
